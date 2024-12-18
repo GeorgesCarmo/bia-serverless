@@ -15,7 +15,7 @@ export const lambdaHandler = async (event, context) => {
     const response = {
       statusCode: 200,
       body: JSON.stringify({
-        message: 'ola mundo novo 2 - 3 - 4 - 5 - 6!',
+        message: 'ola mundo!',
       })
     };
 
